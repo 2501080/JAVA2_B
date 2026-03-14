@@ -76,4 +76,5 @@ public class Person {
                 age, name, type, type, isMarried ? "했고" : "안했고", children);
 
     }
+
 }
