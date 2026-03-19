@@ -2,6 +2,8 @@
 // 에디터 여백에 있는 <icon src="AllIcons.Actions.Execute"/> 아이콘을 클릭하세요.
 public class Main {
     public static void main(String[] args) {
+
+        //기본 생성자 + setter 방식
         Person person = new Person();
 
         person.setName("홍길동");
@@ -13,6 +15,8 @@ public class Main {
         System.out.println(person);
         System.out.println();
 
+
+        //생성자 초기화 방식
         Person hong = new Person("홍길동", 30, true, true, 3);
         System.out.println(hong);
     }
